@@ -107,7 +107,7 @@ function App() {
       </header>
       <div>
         <ul>
-          {todos.map((todo) => ( 
+          {todos.map((todo) => (
             <li key={todo.id}>
               <span
                 style={
